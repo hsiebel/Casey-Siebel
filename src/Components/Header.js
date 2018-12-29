@@ -33,12 +33,10 @@ class Header extends Component {
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">I'm {name}.</h1>
-          <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>
+          <h3>"I live in {city} California and study at <span>{occupation}</span>. {description}.</h3>
           <hr />
           <a href='PUT THE URL HERE' className="button"><i style={{ marginRight: '7px' }} className="fa fa-dropbox"></i>Check Out My Works</a>
-          <ul className="social">
-            {networks}
-          </ul>
+         
         </div>
       </div>
 

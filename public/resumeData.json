@@ -1,91 +1,122 @@
 {
   "main": {
     "name":"Hunter Siebel",
-    "occupation":"Gangsta",
-    "description":"Crushing it!",
+    "occupation":"Stanford University",
+    "description":"I am a computer science major with a focus in artificial intelligence and a minor in international relations, graduating in 2021",
     "image":"profilepic.jpg",
-    "bio":"Super sick wit it",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "bio": "I am hard-working, a faster learner, and work great in a team enviorment. I am eager to learn and expand my professional skills.",
+    "contactmessage":"Please fill out the form below to contact me if you would like to know more about my previous work, expirence, or have any other questions!",
+    "email": "hrsiebel@stanford.edu",
+    "phone": "650-213-6737",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"3000 Portola Road",
+      "city":"Woodside",
+      "state":"California",
+      "zip": "94062"
     },
-    "website": "http://www.timbakerdev.com",
+
+    "website": "http://www.timbakerdev.com", 
     "resumedownload":"http://timbakerdev.com",
     "social":[
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/hunter-siebel/",
         "className":"fa fa-linkedin"
-      },
-      {
-        "name":"github",
-        "url":"http://github.com/tbakerx",
-        "className":"fa fa-github"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Here are a few of my most valuable skills",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Stanford University (GPA 3.9)",
+        "degree":"Bachelors of Computer Science",
+        "graduated":"Spring 2021",
+        "description":"At Stanford I've learned valuabe project and time management skills. I've also learned how to work independently and have developed excellent problem-solving abilities."
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"London School of Economics",
+        "degree":"International Politics of Social Protest and Change",
+        "graduated":"Summer 2018",
+        "description":"My time at the London School of Economics was an enloghtening expirence about social movement from an international perspective."
+      },
+      {
+        "school":"Menlo School (GPA 4.0)",
+        "degree":"High School",
+        "graduated":"June 2017",
+        "description":"At Menlo I was involved in the school's community service organization and worked as a peer tutor. I took away great organization, teamwork, and leadership skills from my time at Menlo."
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"C3, Inc.",
+        "title":"Product Management Intern",
+        "years":"Summer 2018",
+        "description":"I created a system to manage the maintenance of lighbulbs for building and factory owners that leveraged IoT and AI technologies. The project was built on the C3 type system using JavaScript and TensorFlow. I also improved and tested new versions of C3's customer training platform."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Institute for Stem Cell Biology and Regenerative Medicine at Stanford University",
+        "title":"Research Assistant",
+        "years":"July 2016 - February 2017",
+        "description":"I performed many expirements to explore the lineage of embroyic stem cells that involved  DNA extraction and replication, measuring gene expression, and cell culturing. At the lab I  was responsible for  data analysis, data recording, and ordering of lab supplies for future experiments, which was fundamental for day-to-day lab operations."
+      },
+      {
+        "company":"Stanford Office of Accessible Education",
+        "title":"Notetaker",
+        "years":"Fall 2018",
+        "description":"I transcribed detailed records of lectures and other class information for a variety of subjects, creating an improved body of academic resources for qualifying students. I sumbitted organized and professional notes 4 times a week for the entirety of each course."
+      }
+
+    ],
+    "awards":[
+      {
+        "name":"Academic",
+        "link1": "Menlo School Science Department Academic Award (Advanced Topics Biology",
+        "year1": "2017",
+        "link3": "Research Paper published in Academic Journal Menlo School Roundtable",
+        "year3": "2016",
+        "link2": "AP Scholar with Distinction",
+        "year2": "2017",
+        "description":""
+      },   
+      {
+        "name":"Equestrian",
+        "link1": "Junior Hunter Finals West Grand Champion",
+        "year1": "2017",
+        "link2": "North American Junior Rider Championships team silver",
+        "year2": "2016",
+        "link3": "United States Equestrian Federation National Rank #1",
+        "year3": "2015",
+        "description":""
       }
     ],
     "skills":[
       {
-        "name":"Git",
-        "level":"60%"
-      },
-      {
-        "name":"Illustrator",
+        "name":"C",
         "level":"55%"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "name":"C++",
+        "level":"60%"
       },
       {
-        "name":"CSS",
+        "name":"Java",
+        "level":"60%"
+      },
+      {
+        "name":"RStudio",
+        "level":"40%"
+      },
+      {
+        "name":"Microsoft Office",
         "level":"90%"
       },
       {
-        "name":"HTML5",
-        "level":"80%"
+        "name":"Javascript",
+        "level":"40%"
       },
       {
-        "name":"VueJs",
-        "level":"50%"
-      },
-      {
-        "name":"MongoDB",
+        "name":"Project Management",
         "level":"80%"
       }
     ]

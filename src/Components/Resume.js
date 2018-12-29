@@ -8,13 +8,22 @@ class Resume extends Component {
       var education = this.props.data.education.map(function(education){
         return <div key={education.school}><h3>{education.school}</h3>
         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
-        <p>{education.description}</p></div>
+        <p>{education.description}</p>
+        </div>
       })
       var work = this.props.data.work.map(function(work){
         return <div key={work.company}><h3>{work.company}</h3>
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
             <p>{work.description}</p>
         </div>
+      })
+      var awards = this.props.data.awards.map(function(awards){
+        return <div key={awards.name}><h3>{awards.name}</h3>
+          <p className="info">{awards.link1}<span>&bull;</span> <em className="date">{awards.year1}</em></p>
+          <p className="info">{awards.link2}<span>&bull;</span> <em className="date">{awards.year2}</em></p>
+          <p className="info">{awards.link3}<span>&bull;</span> <em className="date">{awards.year3}</em></p>
+          <p>{awards.description}</p>
+       </div>
       })
       var skills = this.props.data.skills.map(function(skills){
         var className = 'bar-expand '+skills.name.toLowerCase();
@@ -52,6 +61,16 @@ class Resume extends Component {
     </div>
 
 
+      <div className="row awards">
+
+         <div className="three columns header-col">
+            <h1><span>Awards</span></h1>
+         </div>
+
+         <div className="nine columns main-col">
+          {awards}
+        </div>
+    </div>
 
       <div className="row skill">
 
@@ -71,8 +90,8 @@ class Resume extends Component {
 				</div>
 			</div>
       </div>
-   </section>
-    );
+      </section>
+      );
   }
 }
 
