@@ -25,17 +25,18 @@ class Header extends Component {
           <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
           <li><a className="smoothscroll" href="#about">About</a></li>
           <li><a className="smoothscroll" href="#resume">Resume</a></li>
-          <li><a className="smoothscroll" href="#contact">Contact</a></li>
+         
         </ul>
 
       </nav>
 
       <div className="row banner">
         <div className="banner-text">
-          <h1 className="responsive-headline">I'm {name}.</h1>
-          <h3>"I live in {city} California and study at <span>{occupation}</span>. {description}.</h3>
+          <h1 className="responsive-headline">I'm {name} </h1>
+          <h3>I live in {city} California and study at <span>{occupation}</span>. {description}.</h3>
           <hr />
-          <a href='PUT THE URL HERE' className="button"><i style={{ marginRight: '7px' }} className="fa fa-dropbox"></i>Check Out My Works</a>
+          <a href='https://www.dropbox.com/sh/foaikc7qqjn9h7p/AABbrsH837kkxcKsGW-m-K0ra?dl=0' className="button"><i style={{ marginRight: '7px' }} className="fa fa-dropbox"></i>Check Out My Works</a>
+          <h6> My work is password protected to comply with the Stanford honor code. If you would like to view my work, please contact me for the password </h6>
          
         </div>
       </div>
