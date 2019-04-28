@@ -36,7 +36,7 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form action="" method="post" id="contactForm" name="contactForm">
+               <form action="contact" method="post" id="contactForm" name="contactForm">
 					<fieldset>
 
                   <div>
@@ -50,8 +50,8 @@ class Contact extends Component {
                   </div>
 
                   <div>
-						   <label htmlFor="contactSubject">Subject</label>
-						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>/>
+						   <label htmlFor="contactSubject">Subject <span className="required">*</span></label>
+						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
                   </div>
 
                   <div>
